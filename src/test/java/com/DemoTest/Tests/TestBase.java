@@ -148,7 +148,7 @@ public  class TestBase  {
       //  capabilities.setCapability("name", method);
      //   capabilities.setCapability("tags", "Smoke_Test");
         capabilities.setCapability("tags", "headless-smoke-test");
-        capabilities.setCapability("build", "Sample Headless Tests");
+       // capabilities.setCapability("build", buildTag;
       
     	
 
