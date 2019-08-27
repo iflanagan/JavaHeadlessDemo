@@ -25,8 +25,8 @@ import java.rmi.UnexpectedException;
 
 public class HeadlessTest {
 
-public static final String USERNAME = "iflanagan";
-public static final String ACCESS_KEY = "4513840c-236b-4045-86bd-88e0c0ebfb50";
+public static final String USERNAME = "<sauce_username>";
+public static final String ACCESS_KEY = "<sauce_access_key>";
 public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-east-1.saucelabs.com/wd/hub"; // ondemand.us-east-1.saucelabs.com/wd/hub
 //public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@@ondemand.saucelabs.com:443/wd/hub"; 
 public static final String value = "Banking Services: Checking, Savings, Mortgage | Regions";
@@ -43,19 +43,6 @@ public static void main(String[] args) throws Exception {
 
   driver.get("https://www.regions.com/");
   //System.out.println("title of page is: " + driver.getTitle());
-  
-/**
-  WebElement elementtextbox = driver.findElement(By.cssSelector("css=#regions-search-input"));
-  WebElement elementdebitlink = driver.findElement(By.cssSelector("#Bank > div.regions-hero-section-container > header > div > ul > li:nth-child(2) > a"));
-
-  
-  elementtextbox.sendKeys("test");
-  elementtextbox.submit();
-  
-  elementdebitlink.click();
-  **/
-  
- 
   
   String currenttile = driver.getTitle();
   
