@@ -25,13 +25,15 @@ import java.rmi.UnexpectedException;
 
 public class HeadlessTest {
 
-public static final String USERNAME = "<sauce_username>";
-public static final String ACCESS_KEY = "<sauce_access_key>";
-public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-east-1.saucelabs.com/wd/hub"; // ondemand.us-east-1.saucelabs.com/wd/hub
-//public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@@ondemand.saucelabs.com:443/wd/hub"; 
-public static final String value = "Banking Services: Checking, Savings, Mortgage | Regions";
+  public static final String USERNAME = "<sauce_username>";
+  public static final String ACCESS_KEY = "<sauce_access_key>";
+  public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-east-1.saucelabs.com/wd/hub"; // ondemand.us-east-1.saucelabs.com/wd/hub
+  public static final String value = "Google";
 
 public static void main(String[] args) throws Exception {
+
+
+  System.out.println("\nStarting Headless Automation Script.....");
 
   DesiredCapabilities caps = DesiredCapabilities.chrome();
   caps.setCapability("platform", "Linux");
@@ -39,10 +41,10 @@ public static void main(String[] args) throws Exception {
   caps.setCapability("version", "latest");
 
   WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
- 
 
-  driver.get("https://www.regions.com/");
-  //System.out.println("title of page is: " + driver.getTitle());
+
+  driver.get("https://www.google.com/");
+
   
   String currenttile = driver.getTitle();
   

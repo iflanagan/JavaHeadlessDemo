@@ -144,11 +144,8 @@ public  class TestBase  {
         capabilities.setCapability(CapabilityType.VERSION, version);
         capabilities.setCapability(CapabilityType.PLATFORM, os);
         capabilities.setCapability("name", methodName);
-     //   capabilities.setCapability("extendedDebugging", true);
-      //  capabilities.setCapability("name", method);
-     //   capabilities.setCapability("tags", "Smoke_Test");
         capabilities.setCapability("tags", "headless-smoke-test");
-       // capabilities.setCapability("build", buildTag;
+
       
     	
 
@@ -210,9 +207,7 @@ public  class TestBase  {
            capabilities.setCapability(CapabilityType.VERSION, version);
            capabilities.setCapability(CapabilityType.PLATFORM, os);
            capabilities.setCapability("name", methodName);
-         //  capabilities.setCapability("extendedDebugging", true);
-           // commented out line below
-         //  capabilities.setCapability("prerun", obj);
+
           
 
            if (buildTag != null) {
