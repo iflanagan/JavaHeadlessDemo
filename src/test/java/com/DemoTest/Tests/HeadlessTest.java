@@ -36,6 +36,7 @@ public static void main(String[] args) throws Exception {
   System.out.println("\nStarting Headless Automation Script.....");
 
   DesiredCapabilities caps = DesiredCapabilities.chrome();
+ // caps.setCapability("tunnelIdentifier", "<yourTunnelId>");
   caps.setCapability("platform", "Linux");
   caps.setCapability("browser", "chrome");
   caps.setCapability("version", "latest");
