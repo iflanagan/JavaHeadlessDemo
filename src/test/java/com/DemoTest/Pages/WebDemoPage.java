@@ -28,7 +28,7 @@ public class WebDemoPage {
     // menu_button_container
     
     @FindBy(css = "#menu_button_container > div > div:nth-child(3) > div > button")
-    private WebElement hamburgericon; 
+    private WebElement hamburgericon;  // new css=div.bm-burger-button > button old #menu_button_container > div > div:nth-child(3) > div > button
     
     @FindBy(id = "comments")
     private WebElement commentsTextAreaInput;

@@ -2,6 +2,7 @@ package com.DemoTest.Tests;
 
 import com.DemoTest.Pages.WebDemoPage;
 
+import org.json.JSONObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.JavascriptExecutor;
@@ -25,8 +26,8 @@ import java.rmi.UnexpectedException;
 
 public class HeadlessTest {
 
-  public static final String USERNAME = "<sauce_username>";
-  public static final String ACCESS_KEY = "<sauce_access_key>";
+  public static final String USERNAME = "iflanagan";
+  public static final String ACCESS_KEY = "4513840c-236b-4045-86bd-88e0c0ebfb50";
   public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-east-1.saucelabs.com/wd/hub"; // ondemand.us-east-1.saucelabs.com/wd/hub
   public static final String value = "Google";
 
@@ -35,11 +36,17 @@ public static void main(String[] args) throws Exception {
 
   System.out.println("\nStarting Headless Automation Script.....");
 
+  JSONObject obj = new JSONObject();
+  obj.put("executable","https://gist.githubusercontent.com/iflanagan/5af7ff6027ff9d0f3dbb3bea55d670b9/raw/17c4c6a908080af704478f17f5ef750d575cbcdb/preruntest.sh");
+  obj.put("background","false");
+
+
   DesiredCapabilities caps = DesiredCapabilities.chrome();
- // caps.setCapability("tunnelIdentifier", "<yourTunnelId>");
+ // caps.setCapability("tunnelIdentifier", "HeadlessTunnelId");
   caps.setCapability("platform", "Linux");
   caps.setCapability("browser", "chrome");
   caps.setCapability("version", "latest");
+   caps.setCapability("prerun", obj);
 
   WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 

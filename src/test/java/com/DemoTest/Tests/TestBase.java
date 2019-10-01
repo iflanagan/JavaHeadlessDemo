@@ -66,13 +66,17 @@ public  class TestBase  {
         	
      			 // Linux 
 
-     			new Object[]{"firefox", "latest", "linux"},
-     			new Object[]{"firefox", "latest -1", "linux"},
-     			new Object[]{"firefox", "latest -2", "linux"},
-     			
+     //	new Object[]{"firefox", "latest", "linux"},
+     //	new Object[]{"firefox", "latest-1", "linux"},
+     	new Object[]{"firefox", "latest-2", "linux"},
+
+     //    new Object[]{"firefox", "latest-1", "linux"},
+         new Object[]{"firefox", "latest-2", "linux"},
+
+
           new Object[]{"chrome", "latest", "linux"},
-          new Object[]{"chrome", "latest -1", "linux"},
-          new Object[]{"chrome", "latest -2", "linux"},
+          new Object[]{"chrome", "latest-1", "linux"},
+          new Object[]{"chrome", "latest-2", "linux"}
      			
      		
      			
