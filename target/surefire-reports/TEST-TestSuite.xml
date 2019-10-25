@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="TestSuite" time="105.292" errors="0" skipped="0">
+<testsuite tests="5" failures="2" name="TestSuite" time="314.512" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.2+9-LTS"/>
@@ -33,7 +33,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.14.3"/>
+    <property name="os.version" value="10.14.6"/>
     <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.0/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/ianflanagan"/>
@@ -65,9 +65,114 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="18.15"/>
-  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="18.185"/>
-  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="19.858"/>
-  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="24.287"/>
-  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="24.812"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="35.489">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at com.DemoTest.Tests.WebDemoTest.Login(WebDemoTest.java:52)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1dfe2924
+
+Starting Login Function for Dataprovider HardCOdedBrowsers
+
+Starting Login Function for Dataprovider HardCOdedBrowsers
+
+Create an instance of the driver
+
+Starting Login Function for Dataprovider HardCOdedBrowsers
+
+Starting Login Function for Dataprovider HardCOdedBrowsers
+
+Starting Login Function for Dataprovider HardCOdedBrowsers
+
+Create an instance of the driver
+
+Create an instance of the driver
+
+Create an instance of the driver
+
+Create an instance of the driver
+
+Starting login function
+
+Starting login function now
+Enter username: standard_user
+Enter Password: secret_sauce
+Click Login button
+Starting login function
+
+Starting login function now
+Enter username: standard_user
+Starting login function
+
+Starting login function
+
+Starting login function now
+Enter username: standard_user
+Enter Password: secret_sauce
+Starting login function now
+Enter username: standard_user
+Click Login button
+Enter Password: secret_sauce
+Enter Password: secret_sauce
+Click Login button
+Click Login button
+Starting login function
+
+Starting login function now
+Enter username: standard_user
+Enter Password: secret_sauce
+Click Login button
+Click on Hamburger icon
+Can&apos;t execute login function: org.openqa.selenium.NoSuchElementException: Unable to locate element: #menu_button_container &gt; div &gt; div:nth-child(3) &gt; div &gt; button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;chef-feccdd&apos;, ip: &apos;10.90.122.30&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.127+&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.IcwCZ3fZZzeM, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, proxy=Proxy(pac: http://127.0.0.1:19876/pac.js), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0, moz:shutdownTimeout=60000.0, platformVersion=4.14.127+, moz:processID=80.0, browserName=firefox, moz:buildID=20190516215225, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX02d5105e
+*** Element info: {Using=css selector, value=#menu_button_container &gt; div &gt; div:nth-child(3) &gt; div &gt; button}
+Command duration or timeout: 457 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;SL-1155.attlocal.net&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{timeouts={implicit=0, pageLoad=300000, script=30000}, moz:geckodriverVersion=0.24.0, moz:headless=true, platform=ANY, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, platformVersion=4.14.127+, browserVersion=67.0, moz:processID=80, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:profile=/tmp/rust_mozprofile.IcwCZ3fZZzeM, rotatable=false, unhandledPromptBehavior=dismiss and notify, pageLoadStrategy=normal, strictFileInteractability=false, hasMetadata=true, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, moz:accessibilityChecks=false, webdriver.remote.sessionid=b3f2c0da0c6640b1aba0d943ddcd257d, moz:shutdownTimeout=60000, moz:buildID=20190516215225, cssSelectorsEnabled=true, moz:webdriverClick=true}]
+Session ID: b3f2c0da0c6640b1aba0d943ddcd257d
+*** Element info: {Using=css selector, value=#menu_button_container &gt; div &gt; div:nth-child(3) &gt; div &gt; button}</system-out>
+  </testcase>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="41.069">
+    <failure message="expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at com.DemoTest.Tests.WebDemoTest.Login(WebDemoTest.java:52)
+</failure>
+    <system-out>
+Click on Hamburger icon
+Can&apos;t execute login function: org.openqa.selenium.NoSuchElementException: Unable to locate element: #menu_button_container &gt; div &gt; div:nth-child(3) &gt; div &gt; button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;chef-22c1a2&apos;, ip: &apos;10.90.46.61&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.14.127+&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.nMse61GMWRUo, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, proxy=Proxy(pac: http://127.0.0.1:19876/pac.js), moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0, moz:shutdownTimeout=60000.0, platformVersion=4.14.127+, moz:processID=79.0, browserName=firefox, moz:buildID=20190516215225, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXXa1454c1e
+*** Element info: {Using=css selector, value=#menu_button_container &gt; div &gt; div:nth-child(3) &gt; div &gt; button}
+Command duration or timeout: 630 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;SL-1155.attlocal.net&apos;, ip: &apos;192.168.1.104&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{timeouts={implicit=0, pageLoad=300000, script=30000}, moz:geckodriverVersion=0.24.0, moz:headless=true, platform=ANY, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, platformVersion=4.14.127+, browserVersion=67.0, moz:processID=79, takesScreenshot=true, browserName=firefox, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:profile=/tmp/rust_mozprofile.nMse61GMWRUo, rotatable=false, unhandledPromptBehavior=dismiss and notify, pageLoadStrategy=normal, strictFileInteractability=false, hasMetadata=true, proxy={proxyAutoconfigUrl=http://127.0.0.1:19876/pac.js, proxyType=pac}, moz:accessibilityChecks=false, webdriver.remote.sessionid=ecb8f00eebe440aaba211c648a9f4afb, moz:shutdownTimeout=60000, moz:buildID=20190516215225, cssSelectorsEnabled=true, moz:webdriverClick=true}]
+Session ID: ecb8f00eebe440aaba211c648a9f4afb
+*** Element info: {Using=css selector, value=#menu_button_container &gt; div &gt; div:nth-child(3) &gt; div &gt; button}</system-out>
+  </testcase>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="69.348"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="84.302"/>
+  <testcase classname="com.DemoTest.Tests.WebDemoTest" name="Login" time="84.304"/>
 </testsuite>

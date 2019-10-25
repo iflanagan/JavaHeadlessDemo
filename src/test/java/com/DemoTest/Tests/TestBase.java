@@ -66,11 +66,11 @@ public  class TestBase  {
         	
      			 // Linux 
 
-     //	new Object[]{"firefox", "latest", "linux"},
-     //	new Object[]{"firefox", "latest-1", "linux"},
+     	new Object[]{"firefox", "latest", "linux"},
+     	new Object[]{"firefox", "latest-1", "linux"},
      	new Object[]{"firefox", "latest-2", "linux"},
 
-     //    new Object[]{"firefox", "latest-1", "linux"},
+        new Object[]{"firefox", "latest-1", "linux"},
          new Object[]{"firefox", "latest-2", "linux"},
 
 
@@ -147,11 +147,10 @@ public  class TestBase  {
         capabilities.setCapability(CapabilityType.BROWSER_NAME, browser);
         capabilities.setCapability(CapabilityType.VERSION, version);
         capabilities.setCapability(CapabilityType.PLATFORM, os);
+        capabilities.setCapability("tunnelIdentifier", "HeadlessTunnelId");
         capabilities.setCapability("name", methodName);
         capabilities.setCapability("tags", "headless-smoke-test");
 
-      
-    	
 
         if (buildTag != null) {
         	

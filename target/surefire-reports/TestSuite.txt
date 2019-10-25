@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.343 sec
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 84.862 sec <<< FAILURE!
+Login(com.DemoTest.Tests.WebDemoTest)  Time elapsed: 35.489 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at com.DemoTest.Tests.WebDemoTest.Login(WebDemoTest.java:52)
+
+Login(com.DemoTest.Tests.WebDemoTest)  Time elapsed: 41.069 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at com.DemoTest.Tests.WebDemoTest.Login(WebDemoTest.java:52)
+
