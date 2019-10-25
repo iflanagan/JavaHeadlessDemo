@@ -13,7 +13,7 @@
       <class name="com.DemoTest.Tests.WebDemoTest">
         <methods>
           <include name="tearDown"/>
-          <include name="Login" invocation-numbers="5 1 2 4 3 0 6 7"/>
+          <include name="Login" invocation-numbers="2 0 1"/>
         </methods>
       </class> <!-- com.DemoTest.Tests.WebDemoTest -->
     </classes>
