@@ -1,5 +1,5 @@
 #surefire
-#Wed Oct 23 11:37:38 CDT 2019
+#Fri Oct 25 09:14:36 CDT 2019
 includes1=**/*Test.java
 includes2=**/*TestCase.java
 includes0=**/Test*.java
