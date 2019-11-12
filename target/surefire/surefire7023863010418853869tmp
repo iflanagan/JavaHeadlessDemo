@@ -1,5 +1,5 @@
 #surefire
-#Tue Nov 12 12:55:06 CST 2019
+#Tue Nov 12 13:58:05 CST 2019
 includes1=**/*Test.java
 includes2=**/*TestCase.java
 includes0=**/Test*.java
@@ -31,7 +31,6 @@ surefireClassPathUrl.2=/Users/ianflanagan/.m2/repository/org/codehaus/plexus/ple
 enableAssertions=true
 surefireClassPathUrl.9=/Users/ianflanagan/.m2/repository/org/apache/maven/surefire/surefire-booter/2.12.4/surefire-booter-2.12.4.jar
 runOrder=filesystem
-tc.3=com.DemoTest.Tests.IanTest
 tc.1=com.DemoTest.Tests.TestBase
 reportsDirectory=/Users/ianflanagan/Workspace/JavaSeleniumDemoHeadless/JavaHeadlessDemo/target/surefire-reports
 tc.2=com.DemoTest.Tests.WebDemoTest
