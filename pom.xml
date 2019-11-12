@@ -24,11 +24,11 @@
             <version>6.9.10</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>2.53.1</version>
-            <scope>test</scope>
+            <version>3.14.0</version>
         </dependency>
         <dependency>
             <groupId>commons-lang</groupId>
@@ -36,6 +36,19 @@
             <version>2.6</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.saucelabs/sauce_java_common -->
+        <dependency>
+            <groupId>com.saucelabs</groupId>
+            <artifactId>sauce_java_common</artifactId>
+            <version>2.1.25</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.saucelabs.maven.plugin/sauce-connect-plugin -->
+        <dependency>
+            <groupId>com.saucelabs.maven.plugin</groupId>
+            <artifactId>sauce-connect-plugin</artifactId>
+            <version>2.1.25</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.openqa.selenium.webdriver/webdriver-parent -->
         <dependency>
             <groupId>com.saucelabs</groupId>
             <artifactId>sauce_testng</artifactId>
@@ -51,28 +64,14 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.0</version>
                 <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.12.4</version>
-                <configuration>
-                	<property>
-			     <name>parallel</name>
-			     <value>methods</value>
-			   </property>
-			   <property>
-			     <name>threadCount</name>
-			     <value>3</value>
-			   </property>
-			   <property>
-			     <name>dataproviderthreadcount</name>
-			     <value>100</value>
-			   </property>
-                </configuration>
             </plugin>
         </plugins>
     </build>

@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.*;
+
 public class WebDemoPage {
 
     @FindBy(linkText = "i am a link")
@@ -149,8 +151,8 @@ public Boolean  LoginPerfGlitchUser(String user, String passwd) {
 if(driver.getPageSource().contains("Logout")){
 	
 			// Race condition for time to populate yourCommentsSpan
-		    WebDriverWait wait = new WebDriverWait(driver, 15);
-		    wait.until(ExpectedConditions.textToBePresentInElement(LogoutButton, "Logout"));		   		
+	//	    WebDriverWait wait = new WebDriverWait(driver, 15);
+	//	    wait.until(textToBePresentInElement(LogoutButton, "Logout"));
     		System.out.println("\nLogin Locked out User Passed");
     		
     		
@@ -279,8 +281,8 @@ public Boolean LoginProblemUser(String user, String passwd) {
 if(driver.getPageSource().contains("Logout")){
 	
 			// Race condition for time to populate yourCommentsSpan
-		    WebDriverWait wait = new WebDriverWait(driver, 15);
-		    wait.until(ExpectedConditions.textToBePresentInElement(LogoutButton, "Logout"));		   		
+		//    WebDriverWait wait = new WebDriverWait(driver, 15);
+		//    wait.until(textToBePresentInElement(LogoutButton, "Logout"));
   		System.out.println("\nLogin Problem User Passed");
   		
   		

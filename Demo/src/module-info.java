@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author imfaus
- *
- */
-module Demo {
-}

@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="com.saucelabs:ci-sauce:1.134" type="repository">
+    <properties maven-id="com.saucelabs:ci-sauce:1.134" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ci-sauce-1.134.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-archiver-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-utils-3.0.24.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-io-2.7.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-compress-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/snappy-0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xz-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-cli-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/saucerest-1.0.36.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpclient-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/httpcore-4.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json-20171018.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr305-3.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-container-default-1.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/plexus-classworlds-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xbean-reflect-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-api-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/google-collections-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-3.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
