@@ -26,8 +26,8 @@ import java.rmi.UnexpectedException;
 
 public class HeadlessTest {
 
-  public static final String USERNAME = "iflanagan";
-  public static final String ACCESS_KEY = "4513840c-236b-4045-86bd-88e0c0ebfb50";
+  public static final String USERNAME = "<sauce_username>";
+  public static final String ACCESS_KEY = "<sauce_access_key>";
   public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-east-1.saucelabs.com/wd/hub"; // ondemand.us-east-1.saucelabs.com/wd/hub
   public static final String value = "Google";
 
