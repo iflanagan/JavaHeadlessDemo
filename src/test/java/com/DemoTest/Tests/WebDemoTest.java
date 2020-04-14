@@ -23,10 +23,9 @@ public class WebDemoTest extends TestBase {
 
 
 	 @Test(dataProvider = "hardCodedBrowsers")
-	    public void Login(String browser, String version, String os, Method method)
+	    public void LoginDesktopWebHeadless(String browser, String version, String os, Method method)
 	            throws MalformedURLException, InvalidElementStateException, UnexpectedException {
-	    	
-		 
+
 		 System.out.println("\nStarting Login Function for Dataprovider HardCOdedBrowsers");
 		 // add boolean variable 
 	    	Boolean value = true;

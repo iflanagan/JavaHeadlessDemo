@@ -1,10 +1,5 @@
 package com.DemoTest.Tests;
 
-import com.saucelabs.common.SauceOnDemandAuthentication;
-import com.saucelabs.common.SauceOnDemandSessionIdProvider;
-import com.saucelabs.testng.SauceOnDemandAuthenticationProvider;
-import com.saucelabs.testng.SauceOnDemandTestListener;
-
 import org.json.simple.JSONObject;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,31 +9,17 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
-
-import java.io.File;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.rmi.UnexpectedException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.HashMap;
-import java.util.LinkedList;
 
-/**
- * Simple TestNG test which demonstrates being instantiated via a DataProvider in order to supply multiple browser combinations that execute in parallel
- *
- * 
- */
 public  class TestBase  {
 
     private static final int sauce = 0;
 
 	public String buildTag = System.getenv("BUILD_TAG");
-
     public String username = System.getenv("SAUCE_USERNAME");
-
     public String accesskey = System.getenv("SAUCE_ACCESS_KEY");
 
     /**
@@ -60,70 +41,29 @@ public  class TestBase  {
     @DataProvider(name = "hardCodedBrowsers", parallel = true)
     public static Object[][] sauceBrowserDataProvider(Method testMethod) {
         return new Object[][]{
-        	
-        	 
-        	
-        	
+
      			 // Linux 
 
-     //	new Object[]{"firefox", "latest", "linux"},
-     //	new Object[]{"firefox", "latest-1", "linux"},
-     //	new Object[]{"firefox", "latest-2", "linux"},
-      //   new Object[]{"firefox", "latest-2", "linux"},
+     	new Object[]{"firefox", "latest", "linux"},
+     	new Object[]{"firefox", "latest-1", "linux"},
+     	new Object[]{"firefox", "latest-2", "linux"},
+         new Object[]{"firefox", "latest-2", "linux"},
 
-     //   new Object[]{"firefox", "latest-1", "linux"},
-     //    new Object[]{"firefox", "latest-2", "linux"},
+        new Object[]{"firefox", "latest-1", "linux"},
+         new Object[]{"firefox", "latest-2", "linux"},
 
 
           new Object[]{"chrome", "latest", "linux"},
           new Object[]{"chrome", "latest-1", "linux"},
           new Object[]{"chrome", "latest-2", "linux"}
-     			
-     		
-     			
-     		
-     			
-                
+
         };
     }
-    
-//    @DataProvider(name = "hardCodedBrowserslinux", parallel = true)
-//    	    public static Object[][] sauceBrowserDataProviderLinux(Method testMethod) {
-//    	        return new Object[][]{
-//    	        	
-//    	               
-//    	            //   new Object[]{"safari", "latest", "OS X 10.11"},
-//    	                new Object[]{"chrome", "latest", "macOS 10.14"},
-//    	                new Object[]{"chrome", "latest", "Linux"},
-//    	                new Object[]{"firefox", "latest", "Linux"},
-//    	        };
-//    	    }
-//    
-    
-    
 
-    @DataProvider(name = "hardCodedBrowsersemulator", parallel = true)
-       	    public static Object[][] sauceBrowserDataProviderEmulator(Method testMethod) {
-       	        return new Object[][]{
-       	        	
-       	         new Object[]{"Android GoogleAPI Emulator", "portrait", "Chrome", "8.0", "Android"},
-       	             
-       	        };
-       	    }
-    
-    
-
-    /**
-     * @return the {@link WebDriver} for the current thread
-     */
     public WebDriver getWebDriver() {
         return webDriver.get();
     }
 
-    /**
-     *
-     * @return the Sauce Job id for the current thread
-     */
     public String getSessionId() {
         return sessionId.get();
     }
@@ -151,22 +91,18 @@ public  class TestBase  {
       //  capabilities.setCapability("tunnelIdentifier", "HeadlessTunnelId");
         capabilities.setCapability("name", methodName);
         capabilities.setCapability("tags", "headless-smoke-test");
-
+        capabilities.setCapability("build", 5);
 
         if (buildTag != null) {
         	
             capabilities.setCapability("build", buildTag);
         }
-        
 
         // Launch remote browser and set it as the current thread
         webDriver.set(new RemoteWebDriver(
         		
-               new URL("https://" + username + ":" + accesskey + "@ondemand.us-east-1.saucelabs.com/wd/hub"), capabilities));
-             //   new URL("https://" + username + ":" + accesskey + "@ondemand.us-east-1.saucelabs.com/wd/hub"), capabilities));
-        // public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.us-east-1.saucelabs.com/wd/hub"; 
+         new URL("https://" + username + ":" + accesskey + "@ondemand.us-east-1.saucelabs.com/wd/hub"), capabilities));
 
-        // set current sessionId
         String id = ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
         sessionId.set(id);
     }

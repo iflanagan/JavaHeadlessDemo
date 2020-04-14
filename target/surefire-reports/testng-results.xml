@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-10T19:34:05Z" name="Command line suite" finished-at="2020-04-10T19:34:42Z" duration-ms="37095">
+    <groups>
+    </groups>
+    <test started-at="2020-04-10T19:34:05Z" name="Command line test" finished-at="2020-04-10T19:34:42Z" duration-ms="37095">
+      <class name="com.DemoTest.Tests.WebDemoTest">
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:32Z" duration-ms="26777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:32Z" duration-ms="26626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:31Z" duration-ms="26421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:32Z" duration-ms="27038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:31Z" duration-ms="26186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:42Z" duration-ms="36709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:32Z" duration-ms="26689" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:36Z" duration-ms="31212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method signature="LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:05Z" name="LoginDesktopWebHeadless" data-provider="hardCodedBrowsers" finished-at="2020-04-10T14:34:27Z" duration-ms="21512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[linux]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void com.DemoTest.Tests.WebDemoTest.LoginDesktopWebHeadless(java.lang.String,java.lang.String,java.lang.String,java.lang.reflect.Method) throws java.net.MalformedURLException,org.openqa.selenium.InvalidElementStateException,java.rmi.UnexpectedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDesktopWebHeadless -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:27Z" name="tearDown" finished-at="2020-04-10T14:34:27Z" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:31Z" name="tearDown" finished-at="2020-04-10T14:34:32Z" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:31Z" name="tearDown" finished-at="2020-04-10T14:34:32Z" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:32Z" name="tearDown" finished-at="2020-04-10T14:34:32Z" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:32Z" name="tearDown" finished-at="2020-04-10T14:34:32Z" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:32Z" name="tearDown" finished-at="2020-04-10T14:34:32Z" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:32Z" name="tearDown" finished-at="2020-04-10T14:34:32Z" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:36Z" name="tearDown" finished-at="2020-04-10T14:34:37Z" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6]" started-at="2020-04-10T14:34:42Z" name="tearDown" finished-at="2020-04-10T14:34:42Z" duration-ms="365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginDesktopWebHeadless status=SUCCESS method=WebDemoTest.LoginDesktopWebHeadless(java.lang.String, java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.DemoTest.Tests.WebDemoTest@3cb1ffe6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DemoTest.Tests.WebDemoTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
